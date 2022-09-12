@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: rgba(88, 88, 88, 0.781);
+    background-image: url(background.png);
+
+    
+}
+
+
+header {
+    background-color: rgba(0, 0, 255, 0);
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.671);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+   
+    
+}
+
+
+nav a {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+main {
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 400px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+
+form {
+    border: 3px solid rgb(112, 11, 207);
+}
+
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(112, 11, 207);
+    box-sizing: border-box;
+}
+
+
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+nav a:hover {
+    background-color: rgba(86, 29, 139, 0.651);
+}
+
+button {
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(112, 11, 207);
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}

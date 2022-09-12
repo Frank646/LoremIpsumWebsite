@@ -1,0 +1,104 @@
+html {
+    height: 100px;
+}
+
+nav a:hover {
+    background-color: rgba(86, 29, 139, 0.651);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    background-color: rgba(88, 88, 88, 0.781);
+    background-image: url(background.png);
+
+    
+}
+
+
+header {
+    background-color: rgba(0, 0, 255, 0);
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.671);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+   
+    
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.829);
+    height: 400px;
+    text-align: center;
+    
+}
+
+section {
+    align-self: flex-start;
+    background-color: rgba(0, 0, 0, 0.712);
+    text-align-last: center;
+}
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+h1 {
+    font-size: 84px;
+    color: ivory;
+    font-style: inherit;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: ivory;
+    font-style: inherit;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+button {
+    background-color: rgba(137, 43, 226, 0);
+}
